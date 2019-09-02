@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#box-1 {
+	background-color: red;
+	/*padding-top: 10px;*/
+	padding: 10px;
+
+}
+
+body {
+	font-family: sans-serif;
+
+}
+
+.header {
+	/*hex color*/
+	background-color: #333; 
+	color: white;
+	padding: 20px;
+}
+
+.button {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 10px 20px;
+	border: 1px solid transparent;
+	background: #333;
+	color: white;
+	border-radius: 30px;
+	cursor: pointer;
+	transition: all 0.5s;
+	display: block;
+
+}
+
+.button:hover {
+	background: transparent;
+	color: black;
+	border: 1px solid black;
+}
+
+form {
+
+	margin: 10px;
+	margin-top:20px;
+}
+
+form label {
+	display: block;
+	margin:5px 0;
+}
+
+form input[type = "text"], input[type = "email"]{
+
+padding: 7px 1px;
+margin:3px 0;
+width: 100%;
+border-radius: 5px;
+border: 1px solid #ccc;
+
+
+}
+
+table {
+width:100%;
+margin: auto;
+border: 1px solid #ccc
+
+}
+
+table td, th {
+
+	background-color: #f4f4f4;
+}
+
+table th{
+
+	border-bottom: 1px solid #333;
+}
+
+#sketch-holder {
+	display:flex;
+  	justify-content: center;
+}
+
+
+
+
+
