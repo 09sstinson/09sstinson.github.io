@@ -8,9 +8,9 @@ function setup() {
   	vel = [1, 2];
  	loc = [200, 200];
  	canvas.parent('sketch-holder')
- 
+
   // Move the canvas so it’s inside our <div id="sketch-holder">.
-  
+
 	background(255)
 }
 
@@ -31,8 +31,8 @@ function draw() {
 	strokeWeight(10);
 	rect(0, 0, width, height);
 
-	
-	
+
+
 }
 
 function keyPressed() {
