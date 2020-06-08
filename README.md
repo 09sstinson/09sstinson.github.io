@@ -1,6 +1,6 @@
 # Project Website
 
-This is a repository for creating a website to share some of my programming projects
+This is a repository for my experiments with https, css and javascript.
 
 ## Authors
 
